@@ -1,3 +1,5 @@
+package client;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +9,7 @@ import java.net.UnknownHostException;
 import java.util.Scanner;
 
 /**
- * In clasa GameClient dupa crearea socketului, cat timp raspunsul primit de la server nu este "Server stopped"
+ * In clasa client.GameClient dupa crearea socketului, cat timp raspunsul primit de la server nu este "Server stopped"
  * se cere introducerea de la tastatura a unei comenzi care se trimite la server si se asteapta raspunsul.
  * Raspunsul primit este afisat pe ecran.
  */

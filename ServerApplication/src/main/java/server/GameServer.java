@@ -1,9 +1,11 @@
+package server;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Clasa GameServer creaza in constructor un serverSocket care ruleaza la portul specificat in atributul PORT. Serverul
+ * Clasa server.GameServer creaza in constructor un serverSocket care ruleaza la portul specificat in atributul PORT. Serverul
  * va primi request-uri de la clienti si va crea un nou thread pentru fiecare client.
  */
 public class GameServer {
