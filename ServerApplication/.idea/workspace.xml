@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f7b05f3-0519-40fb-bea4-21c95e6b15e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b5R2RMoY1iKRBm9zh6Ysud4PPh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameServer" />
+      <module name="Laborator10.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f7b05f3-0519-40fb-bea4-21c95e6b15e7" name="Default Changelist" comment="" />
+      <created>1587919760248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587919760248</updated>
+      <workItem from="1587919764941" duration="3424000" />
+      <workItem from="1587979399165" duration="4273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="108" key="GridCell.Tab.0.bottom" timestamp="1587984738450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587984738450" />
+    <state width="1323" height="108" key="GridCell.Tab.0.center" timestamp="1587984738450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="108" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587984738450" />
+    <state width="1323" height="108" key="GridCell.Tab.0.left" timestamp="1587984738450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="108" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587984738450" />
+    <state width="1323" height="108" key="GridCell.Tab.0.right" timestamp="1587984738450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="108" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587984738450" />
+    <state x="65" y="0" key="new project wizard" timestamp="1587920057559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587920057559" />
+  </component>
+</project>

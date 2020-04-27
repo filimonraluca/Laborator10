@@ -1,0 +1,24 @@
+Am creat clasa GameServer cu un singur atribut reprezentand portul la care va
+rula serverul.
+In constructorul clasei am creat un server socket la portul specificat si in interiorul
+unui bucle infinite se asteapta conexiunea unui client la server. Pentru fiecare client
+se creaza un thread nou in interiorul caruia se vor procesa requesturile clientului.
+
+Am creat clasa ClientThread care extinde clasa Thread deci trebuie sa suprascriem 
+metoda run(). Constructorul acestei clase primeste un singur paramentru si anume socketul
+prin intermedul caruia se realizeaza comunicarea cu serverul. In metoda run se creaza o instanta
+a clasei BufferedReader, necesara citirii requesturilor din socket, si o instanta a clasei
+PrintWriter necesara scrierii in socket. Deoarece la crearea instantei PrintWriter nu se 
+trimite si un al doilea parametru "true" sau "false" acesta se considera fiind false deci
+deci este necesara apelearea metodei flush() dupa fiecare scriere in socket. In interiorul
+unei bucle infinite se citeste requestul de la client si se genereaza raspunsul care apoi este
+scris in socket. In cazul in care requestul este "exit" se va trimite la client mesajul "Server stopped"
+si se va iesi din bucla infimita.
+
+Am creat clasa GameClient care contine metoda main. In metoda main se seteaza intial
+adresa IP a serverului si portul, dupa care se creaza socketul necesar comunicarii.
+Se creeaza o instanta a clasei PrintWriter ,o instanta a clasei BufferedReader si o instanta
+a clasei Scanner necesara citirii comenzilor introduse de la tastatura. Cat timp raspunsul
+primit de la server nu este "Server stopped" se cere introducerea unei noi comenzi care
+este scrisa in socket si se asteapta raspunsul de la server. Raspunsul primit este afisat
+pe ecran.
